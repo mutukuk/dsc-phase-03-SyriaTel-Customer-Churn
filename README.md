@@ -1,12 +1,10 @@
-Customer Churn Prediction - SyriaTel
+📌 Project Overview
 
-Project Overview
+This project aims to predict customer churn for SyriaTel, a leading telecom provider. The goal is to develop a machine learning model that identifies customers likely to leave and provides actionable insights to improve customer retention strategies.
 
-This project focuses on predicting customer churn for SyriaTel, a leading telecom provider. The goal is to develop a machine learning model that identifies customers likely to leave and provides actionable insights to improve customer retention strategies.
+📊 Business Understanding
 
-Business Understanding
-
-Problem Statement
+🔍 Problem Statement
 
 Customer retention is a major challenge in the telecommunications industry. High churn rates lead to revenue loss and increased customer acquisition costs. By analyzing customer behavior, SyriaTel aims to:
 
@@ -16,9 +14,9 @@ Identify key factors influencing churn.
 
 Provide insights to enhance customer retention strategies.
 
-Data Understanding
+📂 Data Understanding
 
-Dataset Overview
+🔹 Dataset Overview
 
 The dataset consists of 3,333 customer records with 21 attributes, including:
 
@@ -30,9 +28,9 @@ Service-related attributes: International plan, voice mail plan, customer servic
 
 Target variable: Churn (Yes/No).
 
-Data Cleaning & Feature Engineering
+🛠️ Data Cleaning & Feature Engineering
 
-Steps Taken
+✔️ Steps Taken
 
 Handling Missing Values: No missing values were found.
 
@@ -44,7 +42,7 @@ Outlier Treatment: Used the Interquartile Range (IQR) method to cap extreme valu
 
 Scaling: Standardized numerical features for better model performance.
 
-Exploratory Data Analysis (EDA)
+📈 Exploratory Data Analysis (EDA)
 
 Key Findings:
 
@@ -54,9 +52,9 @@ International plan subscribers have a higher churn rate.
 
 High total day minutes usage slightly reduces churn.
 
-Machine Learning Models
+🤖 Machine Learning Models
 
-Models Implemented
+🏆 Models Implemented
 
 Logistic Regression (Baseline Model)
 
@@ -66,7 +64,7 @@ Random Forest Classifier
 
 Hyperparameter Tuned Models (Random Forest & Decision Tree)
 
-Performance Metrics
+📊 Performance Metrics
 
 Accuracy
 
@@ -74,45 +72,20 @@ Precision, Recall, F1-score
 
 AUC-ROC Score
 
-Model
+Model                  Accuracy                   AUC-ROC
+Logistic Regression    85.9%                       0.60
 
-Accuracy
+Decision Tree          90.6%                       0.79
 
-AUC-ROC
+Random Forest           92.9%                      0.80
 
-Logistic Regression
+Tuned Decision Tree     93.1%                      0.83
 
-85.9%
+Tuned Random Forest    92.9%                       0.80
 
-0.60
+📌 The Tuned Decision Tree model performed the best, providing strong predictive accuracy and interpretability.
 
-Decision Tree
-
-90.6%
-
-0.79
-
-Random Forest
-
-92.9%
-
-0.80
-
-Tuned Decision Tree
-
-93.1%
-
-0.83
-
-Tuned Random Forest
-
-92.9%
-
-0.80
-
-The Tuned Decision Tree model performed the best, providing strong predictive accuracy and interpretability.
-
-Business Recommendations
+📢 Business Recommendations
 
 Enhance Customer Service: Reduce customer dissatisfaction by improving service quality.
 
@@ -122,6 +95,8 @@ Proactive Outreach: Identify high-risk customers early and offer incentives to r
 
 Deploy the Decision Tree Model: Integrate the model into SyriaTel’s CRM to predict churn and guide retention strategies.
 
-Conclusion
+🎯 Conclusion
 
 This project successfully identified key churn factors and built an effective predictive model. Implementing the insights and recommendations can help SyriaTel reduce churn and improve customer satisfaction.
+
+📌 Developed by: [Your Name]📅 Date: March 2025💡 Technologies Used: Python, Pandas, Scikit-Learn, Matplotlib, Seaborn, Machine Learning
