@@ -52,7 +52,8 @@ The dataset consists of **3,333 customer records** with **21 attributes**, inclu
 ### 🏆 Models Implemented  
 - **Logistic Regression** (Baseline)  
 - **Decision Tree Classifier**  
-- **Random Forest Classifier**  
+- **Random Forest Classifier**
+-  **KNN Classifier**  
 - **Hyperparameter Tuned Models** (Decision Tree & Random Forest)  
 
 ### Model Performance  
