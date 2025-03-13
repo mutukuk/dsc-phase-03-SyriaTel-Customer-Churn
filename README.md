@@ -86,7 +86,7 @@ By leveraging machine learning, this project successfully:
 ✔ **Developed an accurate prediction model**  
 ✔ **Provided actionable insights for reducing churn**  
 
-Implementing these recommendations will help **SyriaTel** improve customer retention and optimize business growth. 🚀  
+Implementing these recommendations will help **SyriaTel** improve customer retention and optimize business growth. 
 
 ---
 
